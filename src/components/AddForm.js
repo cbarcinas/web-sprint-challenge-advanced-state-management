@@ -100,11 +100,6 @@ const mapStateToProps = (state) => {
   };
 };
 
-// const mapActionsToProps = {
-//   addSmurf,
-//   setError,
-// };
-
 export default connect(mapStateToProps, { setError, addSmurf })(AddForm);
 
 //Task List:
